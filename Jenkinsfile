@@ -21,12 +21,6 @@ echo "hello ishan ${params.job}"
 }
 
 
-stage('choice'){
-steps {
-echo "choices ${param.choice}"
-}
-}
-
 
 }
 
