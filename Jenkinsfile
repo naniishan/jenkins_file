@@ -3,10 +3,7 @@ agent any
 parameters {
  booleanParam(name: 'job',
  defaultValue: true,
- description: 'checkbox parameter')
- choice(name: 'choice',
- choices: 'one\ntwo\nthree\nfour',
- description: 'choices')
+ description: 'checkbox parameter'
 }
 stages{
 stage('echo'){
